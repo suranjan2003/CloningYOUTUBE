@@ -1,0 +1,20 @@
+.thumbnail{
+    width: 300px;
+    display: block;
+}
+.search-bar{
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: #e9e9e9;
+    border-radius: 25px;
+    margin-left: 50px;
+    padding: 5px;
+}
+.video-title{
+    width: 300px;
+}
+.video-author,
+.video-stats{
+    display: inline-block;
+    display: block;
+}
