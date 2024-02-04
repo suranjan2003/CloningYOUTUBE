@@ -1,20 +1,76 @@
+.top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.top-left{
+    display: flex;
+}
+.top-middle{
+    display: flex;
+}
+.hamburg-menu{
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+    
+}
+.youtube-logo{
+    height: 20px;
+    cursor: pointer;
+}
 .thumbnail{
     width: 300px;
     display: block;
 }
 .search-bar{
     font-size: 15px;
-    margin-left: 20px;
     background-color: #e9e9e9;
-    border-radius: 25px;
-    margin-left: 50px;
+    /* border-radius: 25px; */
+    border:2px solid  #e9e9e9;         
     padding: 5px;
+    /* margin-bottom: 10px;*/
+    margin-left: 20px;
 }
 .video-title{
-    width: 300px;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
 }
-.video-author,
+.video-author{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
 .video-stats{
     display: inline-block;
     display: block;
+    color: #606060;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 16;
+}
+.video-preview{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.channel-pic{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.video-info{
+    display: inline-block;
+    width: 200px;
+}
+.profile-pic{
+    width: 40px;
+    border-radius: 50%;
+}
+.thumbnail-row{
+    margin-bottom: 10px;
 }
